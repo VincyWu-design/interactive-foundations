@@ -1,0 +1,108 @@
+.body {
+        position: relative;
+        width: 320px;
+        height: 290px;
+        margin: 0px;
+        background: #d8000f;
+        background: rgba(216, 0, 15, 0.8);
+        border-radius: 50% 50%;
+        box-shadow: -5px 5px 30px 4px rgba(252, 144, 61, 1);
+}
+  
+.red-lantern {
+        position: relative;
+        width: 320px;
+        height: 290px;
+        margin: 150px;
+        background: #d8000f;
+        background: rgba(216, 0, 15, 0.8);
+        border-radius: 50% 50%;
+        box-shadow: -5px 5px 50px 4px rgba(250, 108, 0, 1);
+}
+  
+.body-a {
+        width: 300px;
+        height: 290px;
+        background: #d8000f;
+        background: rgba(216, 0, 15, 0.1);
+        margin: 12px 8px 8px 10px;
+        border-radius: 50% 50%;
+        border: 2px solid #dc8f03;
+}
+  
+.body-b {
+        width: 245px;
+        height: 290px;
+        background: #d8000f;
+        background: rgba(216, 0, 15, 0.1);
+        margin: -4px 8px 8px 26px;
+        border-radius: 50% 50%;
+        border: 2px solid #dc8f03;
+}
+  
+.hanger {
+        position: absolute;
+        top: -60px;
+        left: 165px;
+        width: 2px;
+        height: 60px;
+        background: #dc8f03;
+}
+  
+.tassel-a {
+        position: relative;
+        width: 5px;
+        height: 90px;
+        margin: -1px 0 0 182px;
+        background: #ffa500;
+        border-radius: 0 0 5px 5px;
+}
+  
+.tassel-b {
+        position: absolute;
+        top: 5px;
+        left: -25px;
+        width: 20px;
+        height: 85px;
+        background: #ffa500;
+        border-radius: 0 0 0 5px;
+}
+.tassel-c {
+        position: absolute;
+        width: 5px;
+        height: 85px;
+        margin:4px 0 0 -35px;
+        background: #ffa500;
+        border-radius: 0 0 5px 5px;
+}
+
+.text {
+        font-family: Arial;
+        font-size: 5.2rem;
+        color: #dc8f03;
+        font-weight: bold;
+        line-height: 250px;
+        text-align: center;
+}
+.topCap{
+        position: absolute;
+        top: -7px;
+        left: 135px;
+        width: 60px;
+        height: 12px;
+        border-radius: 5px 5px 0 0;
+        border: solid 1px #dc8f03;
+        background: #ffa500;
+        background: linear-gradient(to right, #dc8f03, #ffa500, #dc8f03, #ffa500, #dc8f03)
+}
+.bottomCap{
+        position: absolute;
+        top: 292px;
+        left: 135px;
+        height: 12px;
+        width: 60px;
+        border-radius: 0 0 5px 5px;
+        border: solid 1px #dc8f03;
+        background: #ffa500;
+        background: linear-gradient(to right, #dc8f03, #ffa500, #dc8f03, #ffa500, #dc8f03);
+}
