@@ -1,0 +1,27 @@
+blue : #00bbda;
+red: #ff5f53
+white: #e6e6e6;
+
+
+main-body {
+	background: black;
+	display:grid;
+	width: 700px;
+	height: 325px;
+	margin: auto;
+	margin-top: 15%;
+	margin-bottom:15%;
+
+
+}
+
+joy-con left{
+	background: blue;
+
+
+}
+
+joy-con right{
+	background: red;
+
+}
