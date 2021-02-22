@@ -8,11 +8,21 @@ body{
 }
 
 .bounding-box{
-    position: relative;
-    width: 400px;
-    height: 480px;
-    background: lightgrey;
-    margin: 10px;
+  position: relative;
+  width: 398px;
+  height: 478px;
+  background: blue;
+  margin: 10px;
+  background-size: 300% 100%;
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+}
+
+.bounding-box:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s;
+  -o-transition: all .4s;
+  -webkit-transition: all .4s;
+  transition: all .4s;
 }
 
 .segment {
@@ -20,48 +30,32 @@ body{
   height: 40px;
   display: inline-block;
   margin: -2px;
-  background: blue;
 }
 
 .segment.blank {
-    background: none;
+    background: lightgrey;
 }
 
 .segment.half-left {
   width: 20px !important;
-  margin-right: 18px;
+  border-right: 20px solid lightgrey;
 }
 
 .segment.half-right {
   width: 20px !important;
-  margin-left: 18px;
+  border-left: 20px solid lightgrey;
 }
 
 .segment.top-triangle {
   width: 0;
-  height: 0;
-  border-bottom: 20px solid lightgrey;
-    border-right: 40px solid blue;
-  margin-bottom: 18px;
+  height: 20px;
+  border-top: 20px solid transparent;
+  border-left: 40px solid lightgrey;
 }
 
 .segment.bottom-triangle {
   width: 0;
   height: 20px;
-  background: none;
   border-bottom: 20px solid lightgrey;
-  border-right: 40px solid blue;
+  border-right: 40px solid transparent;
 }
-
-.square {
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-.square:hover {
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-}  
