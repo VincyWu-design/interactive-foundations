@@ -1,0 +1,170 @@
+#entry {
+  margin: 5% auto;
+  width: 60%;
+  height: 100%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+#enter-building {
+  margin: auto;
+  width: 160px;
+  padding: 5px 20px;
+  border: 2px solid gray;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#floor-1 {
+  top: 0;
+}
+
+#floor-2 {
+  top: 27%;
+}
+
+#floor-3 {
+  top: 58%;
+}
+
+.floor {
+  position: absolute;
+}
+
+#button-box-1 {
+  top: 22%;
+}
+
+#button-box-2 {
+  top: 50%;
+}
+
+#button-box-3 {
+  top: 80%;
+}
+
+.button-box {
+  position: absolute;
+  width: 35px;
+  height: 63px;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.button {
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#button-1 {
+  margin-top: 34px;
+}
+
+#button-3 {
+  margin-top: 5px;
+}
+
+.button:hover {
+  color: #ffbf5f;
+  border-color: #ffbf5f;
+  cursor: pointer;
+}
+
+span {
+  display: inline-block;
+  transform: scale(2, 1);
+}
+
+#floors {
+  position: relative;
+  margin: auto;
+  width: 80%;
+}
+
+#book {
+  position: relative;
+  margin: 10% auto;
+  width: 80%;
+}
+
+#book-cover {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s ease-out;
+  width: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+#book-cover.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+#book-content {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s ease-out;
+  width: 1200px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+#book-content.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+#book-background {
+  position: absolute;
+}
+
+#letters {
+  position: absolute;
+  left: 215px;
+  top: 15px;
+  width: 335px;
+}
+
+#letter-cards {
+  position: absolute;
+  left: 675px;
+  top: 50px;
+  width: 350px;
+}
+
+#letter-w {
+  left: 675px;
+}
+
+#letter-y {
+  left: 875px;
+}
+
+.letter-single {
+  position: absolute;
+  top: 380px;
+  width: 150px;
+  height: 200px;
+  background-size: 300% 100%;
+  background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+}
+
+.letter-single:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s;
+  -o-transition: all .4s;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
