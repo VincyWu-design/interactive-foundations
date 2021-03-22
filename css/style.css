@@ -1,9 +1,115 @@
-body { background: #f8f9fb; }
 @font-face {
-  font-family: "Millimetre-Regular_web";
-  src: url("/fonts/Millimetre-Regular_web.woff") format("woff"),
-       url("/fonts/Millimetre-Regular_web.woff2") format("woff2");
+  font-family: "Millimetre";
+  src: url("fonts/Millimetre-Regular_web.woff") format("woff"),
+       url("fonts/Millimetre-Regular_web.woff2") format("woff2");
 }
-body {
-    font-family: ‘Millimetre-Regular_web’, Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+body { 
+    background-color: rgb(180, 180, 180); 
+    font-family: "Millimetre", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#container {
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size:120px;
+    letter-spacing:0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 
+    8px 8px #ff1f8f,
+    20px 20px #000000;
+}
+
+.dog {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.perspective-text {
+    width: 400px;
+    margin-top: 150px;
+    color: white;
+    font-family: Millimetre;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+
+.perspective-line {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+p {
+  margin: 0;
+  height: 50px;
+  line-height: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.perspective-line:nth-child(odd) {
+  transform: skew(60deg, -30deg) scaleY(0.667);
+}
+
+.perspective-line:nth-child(even) {
+  transform: skew(0deg, -30deg) scaleY(1.337);
+}
+
+.perspective-text:hover p {
+  transform: translate(0, -50px);
+}
+
+.perspective-line:nth-child(1) {
+  left: 29px;
+}
+
+.perspective-line:nth-child(2) {
+  left: 58px;
+  background: #f07e6e;
+}
+
+.perspective-line:nth-child(3) {
+  left: 87px;
+  background: #84cdfa;
+}
+
+.perspective-line:nth-child(4) {
+  left: 116px;
+  background: #5ad1cd;
+}
+
+.perspective-line:nth-child(5) {
+  left: 145px;
+}
+
+#homeworks {
+    position: relative;
+    width: 600px;
+    margin: auto;
+}
+
+#exercises {
+    margin-top: 200px;
+}
+
+#projects {
+    position: absolute;
+    top: -20px;
+    right: 0;
 }
