@@ -1,1 +1,9 @@
 body { background: #f8f9fb; }
+@font-face {
+  font-family: "Millimetre-Regular_web";
+  src: url("/fonts/Millimetre-Regular_web.woff") format("woff"),
+       url("/fonts/Millimetre-Regular_web.woff2") format("woff2");
+}
+body {
+    font-family: ‘Millimetre-Regular_web’, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

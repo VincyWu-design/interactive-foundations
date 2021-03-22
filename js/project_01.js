@@ -13,6 +13,7 @@ document.getElementById('button-4').addEventListener("click", () => {
 document.getElementById('enter-building').addEventListener("click", () => {
   document.getElementById('floor-1').scrollIntoView({behavior: "smooth"});
 });
+
 document.getElementById('book-cover').addEventListener("click", () => {
   document.getElementById('book-content').className = "active";
   document.getElementById('book-cover').className = "";
