@@ -3,17 +3,21 @@
   src: url("fonts/Millimetre-Regular_web.woff") format("woff"),
        url("fonts/Millimetre-Regular_web.woff2") format("woff2");
 }
-
+html {
+    height: 100%;
+}
 body { 
-    background-color: rgb(180, 180, 180); 
+    background: linear-gradient(0.5turn, #3f87a6, #ebf8e1, #f69d3c);
     font-family: "Millimetre", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
 }
 
 #container {
     position: relative;
+    margin-top: 200px;
 }
 
-.name {
+#name {
     position: absolute;
     top: 50px;
     left: 50%;
@@ -24,24 +28,21 @@ body {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: white;
-    text-shadow: 
-    8px 8px #ff1f8f,
-    20px 20px #000000;
+    text-shadow: 8px 8px #36B6BC, 20px 20px #000000;
 }
 
-.dog {
+#dog {
     position: absolute;
     top: 200px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    color: white;
+    color: #1C6ABA;
     font-weight: bold;
 }
 
 .perspective-text {
     width: 400px;
-    margin-top: 150px;
     color: white;
     font-family: Millimetre;
     font-size: 30px;
@@ -81,17 +82,17 @@ p {
 
 .perspective-line:nth-child(2) {
   left: 58px;
-  background: #f07e6e;
+  background: #F6BF3B;
 }
 
 .perspective-line:nth-child(3) {
   left: 87px;
-  background: #84cdfa;
+  background: #89CAAF;
 }
 
 .perspective-line:nth-child(4) {
   left: 116px;
-  background: #5ad1cd;
+  background: #6CB8C7;
 }
 
 .perspective-line:nth-child(5) {
