@@ -7,17 +7,44 @@ html {
     height: 100%;
 }
 body { 
-    background: linear-gradient(0.5turn, #3f87a6, #ebf8e1, #f69d3c);
+/*    background: linear-gradient(0.5turn, #3f87a6, #ebf8e1, #f69d3c);
+*/    
     font-family: "Millimetre", Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0;
 }
 
 #container {
     position: relative;
-    margin-top: 200px;
 }
 
-#name {
+#top-section {
+    height: 100vh;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+
+#scroll-down {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    font-size: 20px;
+}
+#arrow {
+    left: 50%;
+    position: absolute;
+    transform:translateX(-50%)  scaleX(2.5) ;
+    bottom: 5%;
+}
+   
+/*#name {
     position: absolute;
     top: 50px;
     left: 50%;
@@ -29,21 +56,13 @@ body {
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: white;
     text-shadow: 8px 8px #36B6BC, 20px 20px #000000;
-}
-
-#dog {
-    position: absolute;
-    top: 200px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    color: #1C6ABA;
-    font-weight: bold;
-}
+}*/
 
 .perspective-text {
-    width: 400px;
-    color: white;
+    position: absolute;
+    top: 100px;
+    width: 410px;
+    color: #b6dee4;
     font-family: Millimetre;
     font-size: 30px;
     font-weight: 500;
@@ -99,18 +118,46 @@ p {
   left: 145px;
 }
 
+#homework-container {
+    padding-top: 55px;
+    background: #81c3cd;
+}
+
 #homeworks {
     position: relative;
     width: 600px;
     margin: auto;
+    padding-bottom: 200px;
+}
+
+#dog {
+    position: absolute;
+    left: -40%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    top: -60px;
 }
 
 #exercises {
-    margin-top: 200px;
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+#exercises a {
+    color: #ffdf87;
 }
 
 #projects {
     position: absolute;
     top: -20px;
     right: 0;
+    color: white;
+    font-size: 20px;
+}
+
+#projects a {
+    color: #ffdf87;
 }
