@@ -19,22 +19,16 @@
     left: 0;
     width: 100%;
     height: 100%;
-    box-sizing: border-box;
-    padding: 30px 0 100px 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
     overflow: hidden;
     cursor: default;
 }
 
 #mobile {
     position: relative;
-    width: 18%;
+    width: 22%;
     height: 0;
     padding-top: 50%;
-    margin-left: 2%;
+    margin-left: 1%;
     background-image: url(../images/phone.png);
     background-size: 100% 100%;
 }
@@ -51,119 +45,127 @@
     cursor: default;
 }
 
-#mobile-container::-webkit-scrollbar {
-  display: none;
-}
-
 /* desktop notifications */
 .desktop-notification {
     width: 350px;
-    margin: 5px;
+    height: 60px;
+    line-height: 60px;
     border-radius: 5px;
-}
-
-/* desktop notification type 1 */
-.desktop-notification-1 {
-    height: 80px;
-    background: #3c3c3c;
-    position: relative;
-}
-
-.desktop-notification-1-content {
     position: absolute;
-    width: 220px;
-    left: 38%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-.desktop-notification-1-button {
-    position: absolute;
-    width: 70px;
-    left: 85%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(167, 70, 167);
-}
-
-.desktop-notification-1-button:hover{
-    color: rgb(150, 116, 150);
+    top: 100%; /* hide the template by moving it out of the box */
+    left: 100%; /* hide the template by moving it out of the box */
     cursor: pointer;
 }
 
-/* desktop notification type 2 */
-.desktop-notification-2 {
-    height: 60px;
+.desktop-notification.grey {
+    height: 80px;
+    line-height: 80px;
+    padding: 0px 20px;
+    background: #3c3c3c;
 }
 
-.desktop-notification-2.red {
+.desktop-notification.grey {
+    height: 80px;
+    line-height: 80px;
+    padding: 0px 20px;
+    background: #3c3c3c;
+}
+
+.desktop-notification.red {
     background: rgb(207, 40, 40);
 }
 
-.desktop-notification-2.red .desktop-notification-2-icon {
+.desktop-notification.red .desktop-notification-icon {
     background-image: url(../images/error.png);
     background-size: 100% 100%;
 }
 
-.desktop-notification-2.green {
+.desktop-notification.green {
     background: rgb(22, 207, 93);
 }
 
-.desktop-notification-2.green .desktop-notification-2-icon {
+.desktop-notification.green .desktop-notification-icon {
     background-image: url(../images/success.png);
     background-size: 100% 100%;
 }
 
-.desktop-notification-2.yellow {
+.desktop-notification.yellow {
     background: rgb(249, 200, 61);;
 }
 
-.desktop-notification-2.yellow .desktop-notification-2-icon {
+.desktop-notification.yellow .desktop-notification-icon {
     background-image: url(../images/star.png);
     background-size: 100% 100%;
 }
 
-.desktop-notification-2-icon {
+.desktop-notification.red .desktop-notification-icon {
+    background-image: url(../images/error.png);
+    background-size: 100% 100%;
+}
+
+.desktop-notification-icon {
     display: inline-block;
     height: 40px;
     width: 40px;
     margin: 10px;
 }
 
-.desktop-notification-2-content {
+.desktop-notification-content {
     display: inline-block;
     width: 240px;
-    line-height: 60px;
     color: white;
     vertical-align: top;
 }
 
-.desktop-notification-2-button {
+.desktop-notification-button {
     display: inline-block;
-    width: 30px;
-    line-height: 60px;
+    width: 40px;
     color: white;
     vertical-align: top;
+    text-align: center;
 }
 
-.desktop-notification-2-button:hover{
+.desktop-notification-button:hover{
     color: lightgray;
+}
+
+.desktop-notification-long-button {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: rgb(167, 70, 167);
+}
+
+.desktop-notification-long-button:hover{
+    color: rgb(150, 116, 150);
+}
+
+.desktop-notification-group {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 100%; /* hide the template by moving it out of the box */
+    left: 100%; /* hide the template by moving it out of the box */
     cursor: pointer;
+    background-size: 100% 100%;
+}
+
+.desktop-notification-group.mail {
+    width: 80px;
+    background-image: url(../images/notifications/mail_1.jpg);
 }
 
 /* mobile notifications */
 .mobile-notification {
-    width: 94%;
+    width: 80%;
     margin: 5px;
+    margin-left: 9%;
     padding: 5px;
     border-radius: 10px;
-}
-
-/* mobile notification type 1 */
-.mobile-notification-1 {
     height: 80px;
     background: white;
+    position: absolute;
+    left: 120%; /* hide the template by moving it out of the box */
 }
 
 .mobile-notification-1-icon {
