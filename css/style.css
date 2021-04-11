@@ -125,7 +125,7 @@ p {
 
 #homeworks {
     position: relative;
-    width: 600px;
+    width: 700px;
     margin: auto;
     padding-bottom: 200px;
 }
@@ -154,10 +154,26 @@ p {
     position: absolute;
     top: -20px;
     right: 0;
+    width: 300px;
     color: white;
     font-size: 20px;
 }
 
 #projects a {
-    color: #ffdf87;
+  color: #ffdf87;
+}
+
+#project-02-title1 {
+  display: inline;
+}
+
+#project-02-title2, #project-02-title3 {
+  display: none;
+  color: red !important;
+}
+
+#project-02-title2-img {
+  width: 25px;
+  margin-left: 5px;
+  color: red;
 }
