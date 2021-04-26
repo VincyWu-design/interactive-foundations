@@ -1,0 +1,32 @@
+#container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.half-panel {
+  width: 50%;
+  overflow: scroll;
+  padding: 3vw;
+}
+
+.left-panel {
+  background: #EBF0F2;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 1.2em;
+}
+
+.right-panel {
+  background: #F5F5F5;
+  font-family: 'Lato';
+  color: #5e5e5e;
+}
+
+h3, p {
+  margin: 5px 0;
+}
+
+img {
+  width: 100%;
+}

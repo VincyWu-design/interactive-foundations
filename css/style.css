@@ -177,3 +177,7 @@ p {
   margin-left: 5px;
   color: red;
 }
+body.darkmode {
+    background: black;
+    color: white;
+}
