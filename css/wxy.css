@@ -7,6 +7,21 @@ body{
 
 }
 
+a {
+  text-decoration: none;
+}
+
+#back {
+  font-family: "Millimetre", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  border: 1px solid gray;
+  padding: 5px 30px;
+  border-radius: 20px;
+  font-size: 25px;
+  width: 60px;
+  margin: 15px;
+  color:#485563;
+}
+
 .bounding-box{
   position: relative;
   width: 398px;
