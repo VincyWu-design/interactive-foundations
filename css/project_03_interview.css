@@ -84,6 +84,7 @@ h3, p {
   margin-top: 10px;
   float: right;
   color: rgba(206, 29, 29, 0.762);
+  cursor: pointer;
 }
 
 #footer {
