@@ -58,7 +58,8 @@ h3, p {
 .q-container {
   background: #EBF0F2;
   display: flex;
-  font-size: 1.2em;
+  font-size: 1.22em;
+  color: #223952;
 }
 
 .last-q-container {
@@ -68,7 +69,7 @@ h3, p {
 .a-container {
   background: #F5F5F5;
   border-bottom: 3px #D7D7D7 solid;
-  font-family: 'Lato';
+  font-size: 1.2em;
   color: #5e5e5e;
 }
 
