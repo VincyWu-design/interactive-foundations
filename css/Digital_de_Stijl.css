@@ -45,7 +45,7 @@ a:visited {
   grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 13;
-  background: #dcc95d;
+  background: #fffd54;
 }
 
 #b {
@@ -53,7 +53,7 @@ a:visited {
   grid-row-end: 13;
   grid-column-start: 1;
   grid-column-end: 2;
-  ackground: #f6f3e9;
+  background: #2d71b6;
 }
 
 #c {
@@ -61,7 +61,7 @@ a:visited {
   grid-row-end: 13;
   grid-column-start: 2;
   grid-column-end: 7;
-  background: #2d71b6;
+  background: #c16464;
 }
 
 #d {
@@ -69,7 +69,7 @@ a:visited {
   grid-row-end: 13;
   grid-column-start: 7;
   grid-column-end: 8;
-  background: #5ed5fa;
+  background: #f6f3e9;
 }
 
 #e {
@@ -77,7 +77,7 @@ a:visited {
   grid-row-end: 7;
   grid-column-start: 8;
   grid-column-end: 12;
-  background: #fffd54;
+  background: #5ed5fa;
 }
 
 #f {
@@ -109,7 +109,7 @@ a:visited {
   grid-row-end: 13;
   grid-column-start: 12;
   grid-column-end: 13;
-  background: #5ed5fa;
+  background: #f6f3e9;
 }
 
 .item {
